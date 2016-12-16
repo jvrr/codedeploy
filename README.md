@@ -15,6 +15,7 @@ yum install aws-cli -y
 cd /home/ec2-user
 
 2.) Here you will setup your AWS access, secret, and region.
+
 aws configure 
 
 wget https://aws-codedeploy-us-west-2.s3.amazonaws.com/latest/install
@@ -29,4 +30,5 @@ sed -i "s/sleep(.*)/sleep(10)/" install
 
 
 4.) Verify it is running.
+
 service codedeploy-agent status
