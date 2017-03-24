@@ -3,7 +3,7 @@ sudo su
 yum update -y
 yum install httpd ruby wget aws-cli -y
 service httpd start
-chkconfig httpd start
+chkconfig httpd on
 cd /home/ec2-user
 
 
